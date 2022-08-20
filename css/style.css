@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color:lavender;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* Separações */
+.margin-inicial{
+    margin-top: 50px;
+}
+.margin-final{
+    margin-bottom: 50px;
+}
+.divisao{
+    margin: 3%;
+    border: 0.1px solid black;
+}
+
+/* Topo */
+.imagem-top img{
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.menu{
+    margin: 20px;
+}
+.menu a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-shadow: 0px 0px 0.5px black;
+}
+
+/* Botões */
+.botoes button{
+    width: 300px;
+    height: 80px;
+    border-radius: 1rem;
+    background-color:rgb(192, 116, 141);
+    margin: 15px;
+    border: black solid 2px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px black;
+
+}
+.botoes a{
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
